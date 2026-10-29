@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: oyun-sunucusu
+    env: node
+    buildCommand: npm install
+    startCommand: node Server.js
+    
